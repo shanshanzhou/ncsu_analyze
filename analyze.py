@@ -4,8 +4,11 @@ import sys
 from matplotlib import pyplot as plt
 
 def analyze(filename, outputfile):
-    data = np.loadtxt(fname=filename, delimiter=',')
     
+data = np.loadtxt(fname=filename, delimiter=',')
+    '''This is a comment on something in python, I think? I'm making it longer 
+     so it can span multiple lines. I'm rambing on and on.'''
+
     plt.figure(figsize=(10.0, 3.0))
     
     plt.subplot(1, 3, 1)
